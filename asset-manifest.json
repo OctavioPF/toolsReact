@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OctavioPF/toolsReact.git/static/css/main.480c5694.css",
+    "main.js": "/OctavioPF/toolsReact.git/static/js/main.ca6203a5.js",
+    "index.html": "/OctavioPF/toolsReact.git/index.html",
+    "main.480c5694.css.map": "/OctavioPF/toolsReact.git/static/css/main.480c5694.css.map",
+    "main.ca6203a5.js.map": "/OctavioPF/toolsReact.git/static/js/main.ca6203a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.480c5694.css",
+    "static/js/main.ca6203a5.js"
+  ]
+}
