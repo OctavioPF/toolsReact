@@ -1,0 +1,73 @@
+/* Home.css */
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .features {
+    text-align: center;
+  }
+  
+  .features h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .tool-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .tool-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px);
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tool-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  .linkHome{
+    text-decoration: none;
+  }
+  
+  .tool-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .tool-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .tool-card {
+      width: 100%;
+    }
+  }
+  

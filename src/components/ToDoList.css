@@ -1,0 +1,120 @@
+/* src/components/ToDoList.css */
+.todoList {
+  padding-top: 5%;
+  max-width: 600px;
+  margin: 9% auto;
+  ;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: #333;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.todoList:hover {
+  background: linear-gradient(135deg, #d9e2ec, #f0f4f8);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  font-size: 1rem;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  background: #f9f9f9;
+  outline: none;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: #c82333;
+  transform: scale(1.05);
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.task:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.task.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+}
+
+.taskText {
+  flex: 1;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.taskText:hover {
+  color: #007bff;
+}
+
+.deleteButton {
+  background: transparent;
+  border: none;
+  color: #dc3545;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.deleteButton:hover {
+  color: white;
+}
+.add-button:hover{
+  background: green;
+
+}
